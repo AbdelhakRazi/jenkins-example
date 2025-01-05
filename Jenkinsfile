@@ -13,7 +13,7 @@ pipeline {
                 echo "Building.."
                 sh '''
 		pip3 --version
-                pip3 install --user fire		
+                pip3 install  --break-system-packages fire		
                 '''
             }
         }
