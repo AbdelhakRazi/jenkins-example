@@ -13,7 +13,7 @@ pipeline {
                 echo "Building.."
                 sh '''
 		pip3 --version
-                pip3 install fire==0.4.0
+                pip3 install --user fire		
                 '''
             }
         }
